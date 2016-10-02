@@ -1,0 +1,8 @@
+C:\Users\kvala\Documents\Visual Studio 2015\Projects\TempTest\TempTestTests\bin\Debug\TempTestTests.dll
+C:\Users\kvala\Documents\Visual Studio 2015\Projects\TempTest\TempTestTests\bin\Debug\TempTestTests.pdb
+C:\Users\kvala\Documents\Visual Studio 2015\Projects\TempTest\TempTestTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\kvala\Documents\Visual Studio 2015\Projects\TempTest\TempTestTests\bin\Debug\TempTest.exe
+C:\Users\kvala\Documents\Visual Studio 2015\Projects\TempTest\TempTestTests\bin\Debug\TempTest.pdb
+C:\Users\kvala\Documents\Visual Studio 2015\Projects\TempTest\TempTestTests\obj\Debug\TempTestTests.csprojResolveAssemblyReference.cache
+C:\Users\kvala\Documents\Visual Studio 2015\Projects\TempTest\TempTestTests\obj\Debug\TempTestTests.dll
+C:\Users\kvala\Documents\Visual Studio 2015\Projects\TempTest\TempTestTests\obj\Debug\TempTestTests.pdb
