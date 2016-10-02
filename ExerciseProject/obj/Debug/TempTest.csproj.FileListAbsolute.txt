@@ -1,6 +1,0 @@
-c:\users\kvala\documents\visual studio 2015\Projects\TempTest\TempTest\bin\Debug\TempTest.exe.config
-c:\users\kvala\documents\visual studio 2015\Projects\TempTest\TempTest\bin\Debug\TempTest.exe
-c:\users\kvala\documents\visual studio 2015\Projects\TempTest\TempTest\bin\Debug\TempTest.pdb
-c:\users\kvala\documents\visual studio 2015\Projects\TempTest\TempTest\obj\Debug\TempTest.exe
-c:\users\kvala\documents\visual studio 2015\Projects\TempTest\TempTest\obj\Debug\TempTest.pdb
-C:\Users\kvala\Documents\Visual Studio 2015\Projects\TempTest\TempTest\obj\Debug\TempTest.csprojResolveAssemblyReference.cache
