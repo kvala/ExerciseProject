@@ -255,5 +255,31 @@ namespace ExerciseProject
 
 
         }
+
+        public static bool IsPalindrom(string input)
+        {
+            if (input == null)
+            {
+                return true;;
+            }
+
+            int start = 0;
+            int end = input.Length - 1;
+
+            while (start < end)
+            {
+                if (input[start] == input[end])
+                {
+                    start++;
+                    end--;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+
+            return true;
+        }
     }
 }
