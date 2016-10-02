@@ -1,6 +1,6 @@
 ﻿using System.Runtime.InteropServices;
 
-namespace TempTest
+namespace ExerciseProject
 {
     public class ListWithChildArray
     {

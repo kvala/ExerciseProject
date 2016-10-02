@@ -1,7 +1,7 @@
-﻿using TempTest;
+﻿using ExerciseProject;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace TempTest.Tests
+namespace ExerciseProject.Tests
 {
     [TestClass]
     public class BinarySearchHelperTests

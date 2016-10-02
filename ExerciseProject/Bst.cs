@@ -1,4 +1,4 @@
-﻿namespace TempTest
+﻿namespace ExerciseProject
 {
     public class Bst
     {

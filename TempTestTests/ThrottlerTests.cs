@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace TempTest.Tests
+namespace ExerciseProject.Tests
 {
     [TestClass]
     public class ThrottlerTests

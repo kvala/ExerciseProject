@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace TempTest
+namespace ExerciseProject
 {
     public class Throttler
     {

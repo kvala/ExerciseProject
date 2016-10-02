@@ -1,0 +1,7 @@
+C:\Users\kvala\Documents\Visual Studio 2015\Projects\TempTest\TempTest\bin\Debug\TempTest.exe.config
+C:\Users\kvala\Documents\Visual Studio 2015\Projects\TempTest\TempTest\bin\Debug\TempTest.exe
+C:\Users\kvala\Documents\Visual Studio 2015\Projects\TempTest\TempTest\bin\Debug\TempTest.pdb
+C:\Users\kvala\Documents\Visual Studio 2015\Projects\TempTest\TempTest\obj\Debug\ExerciseProject.csprojResolveAssemblyReference.cache
+C:\Users\kvala\Documents\Visual Studio 2015\Projects\TempTest\TempTest\obj\Debug\TempTest.exe
+C:\Users\kvala\Documents\Visual Studio 2015\Projects\TempTest\TempTest\obj\Debug\TempTest.pdb
+C:\Users\kvala\Documents\Visual Studio 2015\Projects\ExerciseProject\ExerciseProject\bin\Debug\ExerciseProject.exe.config

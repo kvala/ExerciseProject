@@ -7,8 +7,8 @@
     <ProjectGuid>{70C171A5-3D41-4696-A350-B7B5A19212B5}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TempTest</RootNamespace>
-    <AssemblyName>TempTest</AssemblyName>
+    <RootNamespace>ExerciseProject</RootNamespace>
+    <AssemblyName>ExerciseProject</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

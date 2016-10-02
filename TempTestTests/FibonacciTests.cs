@@ -1,12 +1,12 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using TempTest;
+using ExerciseProject;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TempTest.Tests
+namespace ExerciseProject.Tests
 {
     [TestClass()]
     public class FibonacciTests

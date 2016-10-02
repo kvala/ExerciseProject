@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("TempTest")]
+[assembly: AssemblyTitle("ExerciseProject")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("SolarCity")]
-[assembly: AssemblyProduct("TempTest")]
+[assembly: AssemblyProduct("ExerciseProject")]
 [assembly: AssemblyCopyright("Copyright © SolarCity 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
