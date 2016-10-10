@@ -45,3 +45,6 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+/ExerciseProject/obj/Debug
+/ExerciseProject/bin/Debug
+/ExerciseProjectTests/obj/Debug

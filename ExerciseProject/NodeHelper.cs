@@ -85,5 +85,34 @@ namespace ExerciseProject
             node = prev;
             return node;
         }
+
+
+        public static Node NthNode(Node head, int n)
+        {
+            Node current = head;
+            for (int i = 1; i < n; i++)
+            {
+                if (current != null && current.NextNode != null)
+                {
+                    current = current.NextNode;
+                }
+                else
+                {
+                    return null;
+                }
+            }
+
+            Node nthNode = head;
+
+            while (current != null && current.NextNode != null)
+            {
+                current = current.NextNode;
+                nthNode = nthNode.NextNode;
+            }
+
+
+            return nthNode;
+
+        }
     }
 }

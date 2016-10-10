@@ -1,4 +1,5 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using ExerciseProject;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace ExerciseProject.Tests
 {
@@ -20,6 +21,16 @@ namespace ExerciseProject.Tests
             Assert.IsFalse(StringHelpers.IsPalindrom("ab"));
 
             Assert.IsTrue(StringHelpers.IsPalindrom(null));
+        }
+
+        [TestMethod()]
+        public void IsTwoStringsAreNgramsTest()
+        {
+            Assert.IsTrue(StringHelpers.IsTwoStringsAreNgrams("cat", "tac"));
+            Assert.IsFalse(StringHelpers.IsTwoStringsAreNgrams("cac", "tac"));
+            Assert.IsFalse(StringHelpers.IsTwoStringsAreNgrams("cat", "cac"));
+
+            Assert.IsTrue(StringHelpers.IsTwoStringsAreNgrams("cac", "acc"));
         }
     }
 }

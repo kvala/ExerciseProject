@@ -260,7 +260,7 @@ namespace ExerciseProject
         {
             if (input == null)
             {
-                return true;;
+                return true; ;
             }
 
             int start = 0;
@@ -278,6 +278,37 @@ namespace ExerciseProject
                     return false;
                 }
             }
+
+            return true;
+        }
+
+        public static bool IsTwoStringsAreNgrams(string input1, string input2)
+        {
+
+            if (input1.Length != input2.Length)
+            {
+                return false;
+            }
+
+            var counter = new int[256];
+
+            foreach (char t in input1)
+            {
+                counter[t]++;
+            }
+            foreach (char t in input2)
+            {
+                counter[t]--;
+            }
+
+            foreach (var c in counter)
+            {
+                if (c > 0)
+                {
+                    return false;
+                }
+            }
+
 
             return true;
         }
