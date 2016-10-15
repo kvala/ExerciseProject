@@ -218,6 +218,30 @@ namespace ExerciseProject
 
 
         }
+
+       
+        public static int LargeNumber(int number)
+        {
+            int[] times = new int[10];
+
+            while (number > 0)
+            {
+                int n = number % 10;
+                times[n]++;
+                number /= 10;
+
+            }
+
+            int retValue = 0;
+            for (int i = 9; i >= 0; i--)
+            {
+                for (int j = 0; j < times[i]; j++)
+                {
+                    retValue = retValue * 10 + i;
+                }
+            }
+            return retValue;
+        }
     }
 
 }

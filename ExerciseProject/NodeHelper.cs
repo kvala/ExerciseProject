@@ -114,5 +114,20 @@ namespace ExerciseProject
             return nthNode;
 
         }
+
+        public static void PrintLinkedListReverse(Node node)
+        {
+            if (node == null)
+            {
+                return;
+            }
+
+            if (node.NextNode != null)
+            {
+                PrintLinkedListReverse(node.NextNode);
+            }
+
+            Console.Out.WriteLine(node.Data);
+        }
     }
 }

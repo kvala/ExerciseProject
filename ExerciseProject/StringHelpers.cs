@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.IO;
@@ -311,6 +312,73 @@ namespace ExerciseProject
 
 
             return true;
+        }
+
+        public static List<string> GetPerms(string str)
+        {
+            if (str == null)
+            {
+                return null;
+            }
+            List<string> permutations = new List<string>();
+            if (str.Length == 0)
+            { // base case
+                permutations.Add("");
+                return permutations;
+            }
+
+            char first = str[0]; // get the first character
+            string remainder = str.Substring(1); // remove the 1st character
+            List<string> words = GetPerms(remainder);
+            foreach (string word in words)
+            {
+                for (int j = 0; j <= word.Length; j++)
+                {
+                    string s = InsertCharAt(word, first, j);
+                    permutations.Add(s);
+                }
+            }
+            return permutations;
+        }
+
+        public static string InsertCharAt(string word, char c, int i)
+        {
+            string start = word.Substring(0, i);
+            string end = word.Substring(i);
+            return start + c + end;
+        }
+
+        public static List<string> GetCombination(string str)
+        {
+            if (str == null)
+            {
+                return null;
+            }
+            List<string> permutations = new List<string>();
+
+            if (str.Length == 0)
+            {
+                permutations.Add("");
+                return permutations;
+            }
+
+            if (str.Length == 1)
+            { // base case
+                permutations.Add(str);
+                return permutations;
+            }
+
+            char first = str[0]; // get the first character
+            string remainder = str.Substring(1); // remove the 1st character
+            List<string> words = GetCombination(remainder);
+            permutations.Add(first + "");
+
+            foreach (string word in words)
+            {
+                permutations.Add(word);
+                permutations.Add(first + word);
+            }
+            return permutations;
         }
     }
 }

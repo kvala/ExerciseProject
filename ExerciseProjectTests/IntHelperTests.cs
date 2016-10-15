@@ -84,5 +84,22 @@ namespace ExerciseProject.Tests
                 IntHelper.MergeTwoSortedArrays(new[] { 1 }, new[] { 2, 5, 10, 1000, 10000 }));
 
         }
+
+        [TestMethod()]
+        public void LargeNumberTest()
+        {
+            Assert.AreEqual(742, IntHelper.LargeNumber(427));
+
+            Assert.AreEqual(744, IntHelper.LargeNumber(474));
+
+            Assert.AreEqual(321, IntHelper.LargeNumber(132));
+
+            Assert.AreEqual(210, IntHelper.LargeNumber(102));
+
+            //what should be output? 1 or 100?
+            Assert.AreEqual(1, IntHelper.LargeNumber(001));
+
+            Assert.AreEqual(1, IntHelper.LargeNumber(-321));
+        }
     }
 }
