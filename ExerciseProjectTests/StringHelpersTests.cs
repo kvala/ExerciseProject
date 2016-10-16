@@ -47,6 +47,16 @@ namespace ExerciseProject.Tests
             Assert.AreEqual(7, output.Count);
 
             Assert.AreEqual(1, StringHelpers.GetCombination("").Count);
+
+
+            var outputwxyz = StringHelpers.GetCombination("wxyz");
+            Assert.AreEqual(15, outputwxyz.Count);
+        }
+
+        [TestMethod()]
+        public void FindUniqueCharactersTest()
+        {
+            StringHelpers.FindUniqueCharacters("nketan");
         }
     }
 }

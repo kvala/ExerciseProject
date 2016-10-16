@@ -74,10 +74,9 @@ namespace ExerciseProject
         {
             Node prev = null;
             Node current = node;
-            Node next = null;
             while (current != null)
             {
-                next = current.NextNode;
+                var next = current.NextNode;
                 current.NextNode = prev;
                 prev = current;
                 current = next;
@@ -128,6 +127,40 @@ namespace ExerciseProject
             }
 
             Console.Out.WriteLine(node.Data);
+        }
+
+        public static Node RemoveNodeByIndex(Node head, int index)
+        {
+            Node current = head;
+
+            if (head == null)
+            {
+                return null;
+            }
+
+            if (index == 0)
+            {
+                head = current.NextNode;
+                return head;
+            }
+
+            for (int i = 0; i < index - 1; i++)
+            {
+                if (current == null)
+                {
+                    return head;
+                }
+
+                current = current.NextNode;
+            }
+
+
+            if (current != null && current.NextNode != null)
+            {
+                current.NextNode = current.NextNode.NextNode;
+            }
+
+            return head;
         }
     }
 }

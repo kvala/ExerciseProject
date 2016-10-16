@@ -1,12 +1,5 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ExerciseProject
 {
@@ -56,6 +49,37 @@ namespace ExerciseProject
             }
 
             return null;
+        }
+
+        public static void FindUniqueCharacters(string input)
+        {
+            Dictionary<char, int> dictionary = new Dictionary<char, int>();
+
+            int len = input.Length;
+            for (int i = 0; i < len; i++)
+            {
+                char currentChar = input[i];
+
+                if (!dictionary.ContainsKey(currentChar))
+                {
+                    dictionary[currentChar] = 1;
+                }
+                else
+                {
+                    dictionary[currentChar]++;
+                }
+            }
+
+
+            for (int i = 0; i < len; i++)
+            {
+                char currentChar = input[i];
+                if (dictionary[currentChar] == 1)
+                {
+                    Console.WriteLine(currentChar);
+                }
+            }
+
         }
 
         public static string RemoveChars(string input, string remove)

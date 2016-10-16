@@ -99,7 +99,17 @@ namespace ExerciseProject.Tests
             //what should be output? 1 or 100?
             Assert.AreEqual(1, IntHelper.LargeNumber(001));
 
-            Assert.AreEqual(1, IntHelper.LargeNumber(-321));
+            //Assert.AreEqual(1, IntHelper.LargeNumber(-321));
+        }
+
+        [TestMethod()]
+        public void MedianOfSortedNumbersTest()
+        {
+            Assert.AreEqual(1, 
+                IntHelper.MedianOfSortedNumbers(new[]{1}));
+
+            Assert.AreEqual(1.5,
+                IntHelper.MedianOfSortedNumbers(new[] { 1,2 }));
         }
     }
 }

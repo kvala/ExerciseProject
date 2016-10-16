@@ -87,5 +87,34 @@ namespace ExerciseProject.Tests
 
             NodeHelper.PrintLinkedListReverse(n1);
         }
+
+        [TestMethod()]
+        public void RemoveNodeByIndexTest()
+        {
+            
+            Assert.IsNull(NodeHelper.RemoveNodeByIndex(new Node(1), 0));
+
+            Node n1 = new Node(1);
+            Node n2 = new Node(2);
+
+            n1.NextNode = n2;
+
+            Assert.AreEqual(2, NodeHelper.RemoveNodeByIndex(n1, 0).Data);
+
+
+            Node t2n1 = new Node(1);
+            Node t2n2 = new Node(2);
+
+            t2n1.NextNode = t2n2;
+
+            Assert.AreEqual(1, NodeHelper.RemoveNodeByIndex(t2n1, 1).Data);
+
+
+            Assert.IsNull(NodeHelper.RemoveNodeByIndex(null, 1));
+
+
+
+
+        }
     }
 }

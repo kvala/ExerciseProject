@@ -219,7 +219,7 @@ namespace ExerciseProject
 
         }
 
-       
+
         public static int LargeNumber(int number)
         {
             int[] times = new int[10];
@@ -241,6 +241,23 @@ namespace ExerciseProject
                 }
             }
             return retValue;
+        }
+
+        public static double MedianOfSortedNumbers(int[] input)
+        {
+            double median;
+            int len = input.Length;
+            if (len % 2 == 0)
+            {
+                median = (double)(input[(len - 1) / 2] +
+                    input[len / 2]) / 2;
+            }
+            else
+            {
+                median = input[len / 2];
+            }
+
+            return median;
         }
     }
 
